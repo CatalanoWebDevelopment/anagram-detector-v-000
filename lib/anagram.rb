@@ -11,7 +11,7 @@ class Anagram
     # Sort Letter Length
     # Sort letters
     # Are letters the same?
-    array.sort.select do |letters|
+    array.select do |letters|
       letters.split("").sort == @word.split("").sort
     end
   end
