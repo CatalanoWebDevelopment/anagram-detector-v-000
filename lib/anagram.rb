@@ -8,7 +8,7 @@ class Anagram
   end
 
   def match
-    @word.select{|i| i == word}
+    @word.detect(word)
   end
 
 end
