@@ -12,7 +12,8 @@ class Anagram
     # Sort letters
     # Are letters the same?
     array.sort.each do |letters|
-      letters.split("").sort == @word
+      letters.split("").sort == @word.split("").sort
+    end
   end
 
 end
