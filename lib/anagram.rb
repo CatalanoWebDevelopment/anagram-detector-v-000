@@ -10,5 +10,5 @@ class Anagram
   def match
     @word.select{|i| i == word}
   end
-  
+
 end
