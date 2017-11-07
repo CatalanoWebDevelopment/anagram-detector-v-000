@@ -7,11 +7,11 @@ class Anagram
     @word = word
   end
 
-  def match(word)
+  def match(array)
     # Sort Letter Length
     # Sort letters
     # Are letters the same?
-    word.sort.each do |letters|
+    array.sort.each do |letters|
       letters.split("").sort == word
   end
 
