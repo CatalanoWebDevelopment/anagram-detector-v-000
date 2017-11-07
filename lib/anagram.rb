@@ -8,7 +8,11 @@ class Anagram
   end
 
   def match(word)
-    word.sort
+    # Sort Letter Length
+    # Sort letters
+    # Are letters the same?
+    word.sort.each do |letters|
+      letters.split
   end
 
 end
