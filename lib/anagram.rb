@@ -11,7 +11,7 @@ class Anagram
     # Sort Letter Length
     # Sort letters
     # Are letters the same?
-    array.sort.map do |letters|
+    array.sort.detect do |letters|
       if letters.split("").sort == @word.split("").sort
         letters
       end
