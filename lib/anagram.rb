@@ -12,7 +12,7 @@ class Anagram
     # Sort letters
     # Are letters the same?
     word.sort.each do |letters|
-      letters.split
+      letters.split(/ /)
   end
 
 end
