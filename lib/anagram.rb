@@ -14,7 +14,7 @@ class Anagram
     array.sort.map do |letters|
       if letters.split("").sort == @word.split("").sort
         @word
-      else 
+      else
         []
       end
     end
