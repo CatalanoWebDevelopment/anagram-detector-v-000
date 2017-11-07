@@ -12,7 +12,10 @@ class Anagram
     # Sort letters
     # Are letters the same?
     array.sort.map do |letters|
-      letters.split("").sort == @word.split("").sort
+      if letters.split("").sort == @word.split("").sort
+        @word
+      else
+        []
     end
   end
 
